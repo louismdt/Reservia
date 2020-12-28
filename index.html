@@ -6,40 +6,114 @@
 		<title>Réservia</title>
 	</head>
 	<body>
+	<!-- HEADER -->
 		<header>
 			<div>
-				<p>Trouver votre hébergement pour des vacances de rêve</p>
+				<h1>Trouver votre hébergement pour des vacances de rêve</h1>
+				<i class="fa fa-info-circle" aria-hidden="true"></i>
 				<p>En plein centre ville ou en pleine nature</p>
 			</div>
-			<div>
-				<i class="fa fa-info-circle" aria-hidden="true"></i>
-				<input type="text" id="uname" name="name">
-				<button>Recherche</button>
+	<!-- SEARCH --> 
+			<div id="recherche">
+				<form method="POST" action="traitement.php">
+					<i class="fa fa-map-marker" aria-hidden="true"></i>
+					<label for="ville">Saisir la ville</label>   
+					<input type="search" name="ville" id="ville" placeholder="Saisir la ville">
+					<button>Recherche</button>
+				</form>
 			</div>
-			<div>
-				<img src="E:\Documents\Openclasssrooms\Projet 2\Source\Projet 2 - Reservia\images\hebergements\3_medium\marcus-loke-WQJvWU_HZFo-unsplash">
-			</div>
+			<nav>
+				<p>Filtres</p>
+				<button>Economique</button>
+				<button>Familial</button>
+				<button>Romantique</button>
+				<button>Animaux autorisés</button>
+			</nav>
+			<p>Plus de 600 logements sont disponibles dans cette ville</p>
 		</header>
-		<section>
-			<h1></h1>
+	<!-- SECTION 1 -->
+		<section id="hebergements">
+			<h1>Hébergements à Marseille</h1>
+				<figure>	
+					<img src="images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="#">
+					<figcaption>Auberge de la canebiere</figcaption>
+				</figure>
+				<figure>
+					<img src="images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="#">
+					<figcaption>Hôtel du port</figcaption>
+				</figure>
+				<figure>
+					<img src="images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="#">
+					<figcaption>Hôtel les mouettes</figcaption>
+				</figure>
+				<figure>
+				<img src="images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="#">
+					<figcaption>Hôtel de la mer</figcaption>
+				</figure>
+				<figure>
+				<img src="images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="#">
+				<figcaption>Auberge</figcaption>
+				</figure>
+				<figure>
+				<img src="images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="#">
+				<figcaption>Hôtel chez Amina</figcaption>
+				</figure>
 		</section>
-		<section>
-			<h1></h1>
+	<!-- SECTION 2 -->
+		<section id="populaires">
+			<h1>Les plus populaires</h1>
+			<i class="fa fa-line-chart" aria-hidden="true"></i>
+			<img src="images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="#">
+			<img src="images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg" alt="#">
+			<img src="images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="#">
 		</section>
-		<section>
-			<h1></h1>
+	<!-- SECTION 3 -->
+		<section id="activites">
+			<h1>Activités à Marseille</h1>
+				<figure>
+					<a href="images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"><img src="images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="#"></a>
+					<figcaption>Vieux port</figcaption>
+				</figure>
+				<figure>
+					<a href="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg"><img src="images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="#"></a>
+					<figcaption>Fort</figcaption>
+				</figure>
+				<figure>
+					<a href="images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg"><img src="images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt="#"></a>
+					<figcaption>Iles</figcaption>
+				</figure>
+				<figure>
+					<a href ="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"><img src="images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="#"></a>
+					<figcaption>Parc national des calanques</figcaption>
+				</figure>
+				<figure>
+					<a href="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg"><img src="images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="#"></a>
+					<figcaption>Notre dame</figcaption>
+				</figure>
+				<figure>
+					<a href ="images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg"><img src="images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="#"></a>
+					<figcaption>Parc</figcaption>
+				</figure>		
 		</section>
+	<!-- FOOTER -->
 		<footer>
 			<div id="a_propos">
-				<div class="Fonctionnement_du_site">Fonctionnement du site</div>
-				<div class="Conditions_vente">Conditions générales de vente</div>
-				<div class="Donnees_confidentialite">Données et confdentialité</div>
-			<div id="hebergements"></div>
-				<div class="charte">Charte qualité</div>
-				<div class="Soumettre">Soumettre votre hôtel</div>
-			<div id="assistance"></div>
-				<div class="Centre_aide">Centre d'aide</div>
-				<div class="nous_contacter">Nous contacter</div>
+				<h3>A propos</h3>
+				<p>
+					<a href="fonctionnement_site">Fonctionnement du site</a>
+					<a href="conditions_vente">Conditions générales de vente</a>
+					<a href="donnees_confidentialite">Données et confidentialité</a>
+				</p>
+			</div>	
+			<div id="hebergements">
+				<h3>Nos hébergements</h3>
+					<a href="charte_qualite">Charte qualité</a>
+					<a href="soumettre_hotel">Soumettre votre hôtel</a>
+			</div>
+			<div id="assistance">
+				<h3>Assistance</h3>
+					<a href="aide">Centre d'aide</a>
+					<a href="contacter">Nous contacter</a>
 			</div>
 		</footer>
 	</body>
