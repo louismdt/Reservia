@@ -1,0 +1,77 @@
+/*nouuvelle police*/
+
+@font-face{ 
+	font-family: raleway;
+		src: url('raleway/raleway-light.eot') format('eot')
+			url('raleway/raleway-light.woff') format('woff'),
+			url('raleway/raleway-light.ttf') format('truetype'),
+			url('raleway/raleway-light.svg') format('svg');
+	font-weight: normal;
+	font-size: normal;
+}
+
+/* Eléments principaux de la page */
+
+body{
+	background-color: white;
+	font-family: 'raleway-light';
+
+}
+#recherche button{
+	background-color: #0065FC;
+	color: white;
+}
+
+#hebergements{
+	width: 70%;
+	justify-content: left;
+	background-color: #F2F2F2;
+}
+
+
+#populaires{
+	width: 20%;
+	justify-content: right;
+	background-color: #F2F2F2;
+	
+}
+
+#activites{
+	width: 100%;
+	align-items: baseline;
+
+}
+
+/*Footer*/
+
+footer{
+	display: flex;
+	justify-content: space-around;
+	background-color: #F2F2F2;
+}
+
+footer h3{
+	font-size: 1em;
+	}
+
+#a_propos {
+	flex-direction: column;
+}
+
+#a_propos a{
+	text-decoration: none;
+	font-size: 0.9em;
+	color: black;
+}
+
+#hebergements a{
+	text-decoration: none;
+	font-size: 0.9em;
+	color: black;
+}
+
+#assistance a{
+	text-decoration: none;
+	font-size: 0.9em;
+	color: black;
+}
