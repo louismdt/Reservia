@@ -15,12 +15,14 @@
 .en_tete{
 	display: flex;
 	justify-content: space-between;
+	border: 2px black solid;
 }
 
 .logo{
-	width: 100%;
+	width: 20%;
 	max-width: 100%;
 	max-height: 100%;
+	border: 2px black solid;
 }
 
 .principaux{
@@ -28,11 +30,13 @@
 	align-items: center;
 	justify-content: space-around;
 	width: 40%;
+	border: 2px black solid;
 }
 
 .lien{
 	display: flex;
 	justify-content: space-between;
+	border: 2px black solid;
 }
 
 /* Eléments principaux de la page */
@@ -40,8 +44,20 @@
 body{
 	background-color: white;
 	font-family: 'raleway-light';
-
+	border: 2px black solid;
 }
+
+#recherche{
+	display: flex;
+	justify-content: flex-start;
+	border: 2px black solid;
+}
+
+.fa-map-marker{
+	background-color: #F2F2F2;
+	border: 2px black solid;
+}
+
 #recherche button{
 	background-color: #0065FC;
 	color: white;
@@ -51,90 +67,208 @@ body{
 	width : 70%;
 	display: flex;
 	align-items: center;
-	justify-content: left;
+	border: 2px black solid;
+}
+
+.fa-money-bill-wave-alt{
+	background-color: #0065FC;
+	color: #DEEBFF;
+	border: 2px black solid;
+}
+
+.fa-child{
+	background-color: #0065FC;
+	color: #DEEBFF;
+	border: 2px black solid;
+}
+
+.fa-heart{
+	background-color: #0065FC;
+	color: #DEEBFF;
+	border: 2px black solid;
+}
+
+.fa-dog{
+	background-color: #0065FC;
+	color: #DEEBFF;
+	border: 2px black solid;
 }
 
 .info{
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
+	border: 2px black solid;
+}
+
+.fa-info-circle{
+	background-color: #0065FC;
+	color: white;
+	border: 2px black solid;
+}
+
+.nav p{
+	width: 5%;
+	border: 2px black solid;
+}
+
+.economique{
+	display: flex;
+	width: 20%;
+	border: 2px black solid;
+}
+
+.familial{
+	display: flex;
+	width: 20%;
+	border: 2px black solid;
+}
+
+.romantique{
+	display: flex;
+	width: 20%;
+	border: 2px black solid;
+}
+
+.animaux{
+	display: flex;
+	width: 20%;
+	border: 2px black solid;
 }
 
 #hebergements{
-	width: 70%;
+	width: 75%;
 	justify-content: left;
 	background-color: #F2F2F2;
+	border: 2px black solid;
 }
 
 
 .populaires{
-	width: 20%;
+	width: 25%;
 	justify-content: right;
 	background-color: #F2F2F2;
+	border: 2px black solid;
 }
 
+.titre{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border: 2px black solid;
+}
 .stars{
 	display: flex;
+	border: 2px black solid;
 }
 .blue{
 	color: #0065FC;
 	display: flex;
+	border: 2px black solid;
 }
 
 .grey{
 	color: #F2F2F2;
 	display: flex;
+	border: 2px black solid;
 }
 
 .auberge_cannebiere{
 	background-color: white;
 	width: 30%;
+	height: 30%;
+	border: 2px black solid;
 }
 
 .hotel_port{
 	background-color: white;
 	width: 30%;
+	border: 2px black solid;
 }
 
 .hotel_mouettes{
 	background-color: white;
 	width: 30%;
+	border: 2px black solid;
 }
 
 .hotel_mer{
 	background-color: white;
 	width: 30%;
+	border: 2px black solid;
 }
 
 .auberge_panier{
 	background-color: white;
 	width: 30%;
+	border: 2px black solid;
 }
 
 .hotel_amina{
 	background-color: white;
 	width: 30%;
+	border: 2px black solid;
 }
 
 .hotel_soleil_matin{
 	background-color: white;
 	width: 80%;
+	border: 2px black solid;
 }
 
 .coeur_eau{
 	background-color: white;
 	width: 80%;
+	border: 2px black solid;
 }
 
 .hotel_bleu_blanc{
 	background-color: white;
 	width: 80%;
+	border: 2px black solid;
 }
 
 #activites{
 	width: 100%;
 	align-items: baseline;
+	border: 2px black solid;
 
+}
+
+.vieux_port{
+	border: 2px black solid;
+}
+
+.fort_et_iles{
+	flex-direction: column;
+	align-content: space-around;
+	width: 50%;
+	border: 2px black solid;
+}
+
+.fort_promegues{
+	border: 2px black solid;
+}
+
+.iles_frioul{
+	border: 2px black solid;
+}
+
+.calanques{
+	border: 2px black solid;
+}
+
+.dame_et_longchamps{
+	flex-direction: column;
+	border: 2px black solid;
+}
+
+.notre_dame{
+	border: 2px black solid;
+}
+
+.longchamps{
+	border: 2px black solid;
 }
 
 /*Footer*/
@@ -143,30 +277,36 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	background-color: #F2F2F2;
+	border: 2px black solid;
 }
 
 footer h3{
 	font-size: 1em;
+	border: 2px black solid;
 	}
 
 #a_propos {
 	flex-direction: column;
+	border: 2px black solid;
 }
 
 #a_propos a{
 	text-decoration: none;
 	font-size: 0.9em;
 	color: black;
+	border: 2px black solid;
 }
 
 #nos_hebergements a{
 	text-decoration: none;
 	font-size: 0.9em;
 	color: black;
+	border: 2px black solid;
 }
 
 #assistance a{
 	text-decoration: none;
 	font-size: 0.9em;
 	color: black;
+	border: 2px black solid;
 }
