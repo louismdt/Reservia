@@ -22,21 +22,73 @@ body{
 	color: white;
 }
 
-#hebergements{
+
+.hebergements{
 	width: 70%;
 	justify-content: left;
 	background-color: #F2F2F2;
 }
 
 
-#populaires{
+.populaires{
 	width: 20%;
 	justify-content: right;
 	background-color: #F2F2F2;
-	
 }
 
-#activites{
+.blue{
+	color: #0065FC;
+}
+
+.grey{
+	color: #F2F2F2;
+}
+
+.auberge_cannebiere{
+	background-color: white;
+	width: 30%;
+}
+
+.hotel_port{
+	background-color: white;
+	width: 30%;
+}
+
+.hotel_mouettes{
+	background-color: white;
+	width: 30%;
+}
+
+.hotel_mer{
+	background-color: white;
+	width: 30%;
+}
+
+.auberge_panier{
+	background-color: white;
+	width: 30%;
+}
+
+.hotel_amina{
+	background-color: white;
+	width: 30%;
+}
+
+.hotel_soleil_matin{
+	background-color: white;
+	width: 80%;
+}
+
+.coeur_eau{
+	background-color: white;
+	width: 80%;
+}
+
+.hotel_bleu_blanc{
+	background-color: white;
+	width: 80%;
+}
+.activites{
 	width: 100%;
 	align-items: baseline;
 
