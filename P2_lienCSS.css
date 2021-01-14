@@ -10,6 +10,31 @@
 	font-size: normal;
 }
 
+/* En-tête */
+
+.en_tete{
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo{
+	width: 100%;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.principaux{
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	width: 40%;
+}
+
+.lien{
+	display: flex;
+	justify-content: space-between;
+}
+
 /* Eléments principaux de la page */
 
 body{
@@ -22,8 +47,20 @@ body{
 	color: white;
 }
 
+.nav{
+	width : 70%;
+	display: flex;
+	align-items: center;
+	justify-content: left;
+}
 
-.hebergements{
+.info{
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+#hebergements{
 	width: 70%;
 	justify-content: left;
 	background-color: #F2F2F2;
@@ -36,12 +73,17 @@ body{
 	background-color: #F2F2F2;
 }
 
+.stars{
+	display: flex;
+}
 .blue{
 	color: #0065FC;
+	display: flex;
 }
 
 .grey{
 	color: #F2F2F2;
+	display: flex;
 }
 
 .auberge_cannebiere{
@@ -88,7 +130,8 @@ body{
 	background-color: white;
 	width: 80%;
 }
-.activites{
+
+#activites{
 	width: 100%;
 	align-items: baseline;
 
@@ -116,7 +159,7 @@ footer h3{
 	color: black;
 }
 
-#hebergements a{
+#nos_hebergements a{
 	text-decoration: none;
 	font-size: 0.9em;
 	color: black;
