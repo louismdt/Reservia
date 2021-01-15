@@ -1,7 +1,7 @@
 /*nouuvelle police*/
 
 @font-face{ 
-	font-family: raleway;
+	font-family: "raleway";
 		src: url('raleway/raleway-light.eot') format('eot')
 			url('raleway/raleway-light.woff') format('woff'),
 			url('raleway/raleway-light.ttf') format('truetype'),
@@ -40,11 +40,16 @@
 }
 
 /* Eléments principaux de la page */
+html{
+	height: 100%;	
+}
 
 body{
 	background-color: white;
 	font-family: 'raleway-light';
 	border: 2px black solid;
+	height: 100%;
+	font-family: "raleway"; /* penser à modifier */
 }
 
 #recherche{
@@ -63,35 +68,45 @@ body{
 	color: white;
 }
 
+.header{
+	height: 50%;
+	width: 100%;
+}
 .nav{
+	height: 5%;
 	width : 70%;
 	display: flex;
 	align-items: center;
-	border: 2px black solid;
+	border: 2px red solid;
 }
 
-.fa-money-bill-wave-alt{
-	background-color: #0065FC;
+.onglet{
+	display: flex;
+	align-items: center;
+	height: 100px;
+	width: 100%;
+}
+
+.onglet_enfant{
+	display: flex;
+	width: auto;
+	height: 30%;
 	color: #DEEBFF;
 	border: 2px black solid;
 }
 
-.fa-child{
-	background-color: #0065FC;
-	color: #DEEBFF;
-	border: 2px black solid;
+.onglet_enfant i{
+	background-color: #DEEBFF;
+	color: #0065FC;
+	height: 100%;
+	width: 20%;
+	border-radius: 100%;
+	display: flex;
+	align-items: center;
 }
 
-.fa-heart{
-	background-color: #0065FC;
-	color: #DEEBFF;
-	border: 2px black solid;
-}
-
-.fa-dog{
-	background-color: #0065FC;
-	color: #DEEBFF;
-	border: 2px black solid;
+.onglet_enfant button{
+	width: 80%;
 }
 
 .info{
