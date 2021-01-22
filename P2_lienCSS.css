@@ -29,17 +29,25 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	width: 40%;
+	width: 30%;
 	border: 2px black solid;
 }
 
 .lien{
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
+	align-items: center;
+	width: 70%;
+	height: 50%;
 	border: 2px black solid;
 }
 
-/* Eléments principaux de la page */
+.inscription{
+	font-weight: bold;
+	color: #0065FC;
+	border: 2px black solid;
+}
+/* Eléments principaux de la page ++penser à mettre image en background++ */
 html{
 	height: 100%;	
 }
@@ -89,24 +97,28 @@ body{
 
 .onglet_enfant{
 	display: flex;
-	width: auto;
+	width: 100%;
 	height: 30%;
 	color: #DEEBFF;
 	border: 2px black solid;
 }
 
 .onglet_enfant i{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 15%;
+	height: 100%;
+	border-radius: 100px;
 	background-color: #DEEBFF;
 	color: #0065FC;
-	height: 100%;
-	width: 20%;
-	border-radius: 100%;
-	display: flex;
-	align-items: center;
 }
 
 .onglet_enfant button{
 	width: 80%;
+	border-radius: 10px;
+	background-color: white;
+	border-color: #DEEBFF;
 }
 
 .info{
@@ -151,21 +163,32 @@ body{
 	border: 2px black solid;
 }
 
+.loisirs{
+	display: flex;
+	align-content: space-around;
+	justify-content: space-around;
+	width: 100%;
+}
 #hebergements{
-	width: 75%;
+	width: 45%;
 	justify-content: left;
+	align-content: space-around;
 	background-color: #F2F2F2;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
-
-.populaires{
-	width: 25%;
-	justify-content: right;
-	background-color: #F2F2F2;
-	border: 2px black solid;
+.hebergements_enfant{
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
 }
 
+.hebergements_enfant p{
+	
+}
 .titre{
 	display: flex;
 	justify-content: space-between;
@@ -189,101 +212,174 @@ body{
 }
 
 .auberge_cannebiere{
+	background-image: url("images\hebergements\4_small\marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+	background-position: top;
+	width: 20%;
+	height: 50%;
 	background-color: white;
-	width: 30%;
-	height: 30%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .hotel_port{
+	background-image: url("images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+	width: 20%;
+	height: 50%;
 	background-color: white;
-	width: 30%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .hotel_mouettes{
+	background-image: url("images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg");
+	width: 20%;
+	height: 50%;
 	background-color: white;
-	width: 30%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .hotel_mer{
+	background-image: url("images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+	width: 20%;
+	height: 50%;
 	background-color: white;
-	width: 30%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .auberge_panier{
+	background-image: url("images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+	width: 20%;
+	height: 50%;
 	background-color: white;
-	width: 30%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .hotel_amina{
+	background-image: url("images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+	width: 20%;
+	height: 50%;
 	background-color: white;
-	width: 30%;
 	border: 2px black solid;
+	border-radius: 15px;
+}
+
+.populaires{
+	background-color: #F2F2F2;
+	width: 25%;
+	height : 50%;
+	border: 2px black solid;
+	border-radius: 15px;
+}
+
+.populaires_enfant{
+	flex-direction: column;
+	align-items: center;
 }
 
 .hotel_soleil_matin{
-	background-color: white;
+	background-image: url("images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
 	width: 80%;
+	height: auto;
+	background-color: white;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .coeur_eau{
-	background-color: white;
+	background-image: url("images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg");
 	width: 80%;
+	height: auto;
+	background-color: white;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .hotel_bleu_blanc{
-	background-color: white;
+	background-image: url("images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 	width: 80%;
+	height: auto;
+	background-color: white;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 #activites{
 	width: 100%;
 	align-items: baseline;
 	border: 2px black solid;
+}
 
+.activites_enfant{
+	display: flex;
+	align-content: space-around;
+	width: 100%;
+}
+
+.activites_enfant p{
+	justify-content: flex-start;
+	align-items: flex-end;
 }
 
 .vieux_port{
+	background-image: url("images\activites\4_small\reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+	width: 25%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .fort_et_iles{
 	flex-direction: column;
 	align-content: space-around;
-	width: 50%;
+	width: 25%;
 	border: 2px black solid;
 }
 
 .fort_promegues{
+	background-image: url("images\activites\4_small\paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+	width: 100%;
+	height: 50%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .iles_frioul{
+	background-image: url("images\activites\4_small\kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+	width: 100%;
+	height: 50%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .calanques{
+	background-image: url("images\activites\4_small\kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+	width: 25%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
-.dame_et_longchamps{
+.dame_longchamps{
 	flex-direction: column;
+	width: 25%;
 	border: 2px black solid;
 }
 
 .notre_dame{
+	background-image: url("images\activites\4_small\florian-wehde-xW9e8gdotxI-unsplash.jpg");
+	width: 100%;
+	height: 50%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 .longchamps{
+	background-image: url("images\activites\4_small\lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+	width: 100%;
+	height: 50%;
 	border: 2px black solid;
+	border-radius: 15px;
 }
 
 /*Footer*/
