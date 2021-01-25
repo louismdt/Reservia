@@ -10,7 +10,7 @@
 	<!--NAVIGATION-->
 		<div class="en_tete">
 			<div class="logo">
-				<img src="images\logo\Reservia@3x.png" alt="logo_reservia">
+				<img src="file:///E:/Documents/Openclasssrooms/Projet%202/P2_maudet_louis/Reservia/images/logo/Reservia.svg" alt="logo reservia">
 			</div>
 			<div class="principaux">
 				<div class="lien">
@@ -31,9 +31,9 @@
 	<!-- SEARCH --> 
 			<div id="recherche">
 				<form method="POST" action="traitement.php">
-					<i class="fa fa-map-marker" aria-hidden="true"></i>  
+					<i class="fa fa-map-marker"></i>  
 					<input type="search" name="ville" id="ville" placeholder="Saisir la ville">
-					<button>Recherche</button>
+					<button>Rechercher</button>
 				</form>
 			</div>
 			<div class="nav">
@@ -46,15 +46,21 @@
 						<button>Economique</button>
 					</div>
 					<div class="onglet_enfant">
-						<i class="fas fa-child"></i>
+						<div class="icone_onglet">
+							<i class="fas fa-child"></i>
+						</div>
 						<button>Familial</button>
 					</div>
 					<div class="onglet_enfant">
-						<i class="fas fa-heart"></i>
+						<div class="icone_onglet">
+							<i class="fas fa-heart"></i>
+						</div>
 						<button>Romantique</button>
 					</div>
 					<div class="onglet_enfant">
-						<i class="fas fa-dog"></i>
+						<div class="icone_onglet">
+							<i class="fas fa-dog"></i>
+						</div>
 						<button>Animaux autorisés</button>
 					</div>
 				</div>
@@ -68,7 +74,9 @@
 	<section>
 		<div class="loisirs">
 			<div id="hebergements">
-				<h1>Hébergements à Marseille</h1>
+				<div class="titre">
+					<h1>Hébergements à Marseille</h1>
+				</div>
 					<div class="hebergements_enfant">
 						<div class="auberge_cannebiere">
 							<div class="bloc_1"></div>
