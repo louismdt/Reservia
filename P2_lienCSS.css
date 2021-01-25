@@ -230,10 +230,11 @@ body{
 }
 
 .loisirs{
+	width: 100%;
+	height: 500px;
 	display: flex;
 	align-content: space-around;
 	justify-content: space-around;
-	width: 100%;
 }
 
 h1{
@@ -254,7 +255,7 @@ p{
 }
 
 #hebergements{
-	width: 45%;
+	width: 70%;
 	justify-content: left;
 	align-content: space-around;
 	background-color: #F2F2F2;
@@ -263,7 +264,7 @@ p{
 }
 
 .hebergements_titre{
-	height: 10%;
+	height: 8%;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -298,6 +299,8 @@ p{
 }
 
 .stars{
+	width: 100%;
+	height: 30%;
 	display: flex;
 	border: 2px black solid;
 }
@@ -313,58 +316,128 @@ p{
 	border: 2px black solid;
 }
 
-.auberge_cannebiere{
-	width: 20%;
-	height: 90%;
+.bloc_texte{
+	width: 100%;
+	height: 50%;
+	display: column;
+	align-items: center;
+	justify-content: center;
 	background-color: white;
 	border: 2px black solid;
-	border-radius: 15px;
+}
+
+.bloc_texte h2{
+	width: 100%;
+	height: 30%;
+}
+
+.bloc_texte p{
+	width: 100%;
+	height: 30%;
 }
 
 .image_cannebiere{
-	width: ;
-	background-image: url(E:\Documents\Openclasssrooms\Projet 2\P2_maudet_louis\Reservia\images\hebergements\1_xlarge\marcus-loke-WQJvWU_HZFo-unsplash.jpg);
+	width: 100%;
+	height: 50%;
+	background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+	background-position: center;
+	background-size: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
+}
+
+.auberge_cannebiere{
+	width: 25%;
+	height: 90%;
+	background-color: white;
+	border: 2px black solid;
+	border-radius: 15px;
+}
+
+.image_hotel_port{
+	width: 100%;
+	height: 50%;
+	background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+	background-position: center;
+	background-size: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 .hotel_port{
-	background-image: url("images\hebergements\4_small\fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-	width: 20%;
+	background-image: url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+	width: 25%;
 	height: 90%;
 	background-color: white;
 	border: 2px black solid;
 	border-radius: 15px;
+}
+
+.image_hotel_mouettes{
+	width: 100%;
+	height: 50%;
+	background-image: url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+	background-position: center;
+	background-size: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 .hotel_mouettes{
-	background-image: url("images\hebergements\4_small\reisetopia-B8WIgxA_PFU-unsplash.jpg");
-	width: 20%;
+	width: 25%;
 	height: 90%;
 	background-color: white;
 	border: 2px black solid;
 	border-radius: 15px;
+}
+
+.image_hotel_mer{
+	width: 100%;
+	height: 50%;
+	background-image: url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+	background-position: center;
+	background-size: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 .hotel_mer{
-	background-image: url("images\hebergements\4_small\annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-	width: 20%;
+	width: 25%;
 	height: 90%;
 	background-color: white;
 	border: 2px black solid;
 	border-radius: 15px;
 }
 
+.image_auberge_panier{
+		width: 100%;
+		height: 50%;
+		background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+		background-position: center;
+		background-size: 100%;
+		border-top-right-radius: 15px;
+		border-top-left-radius: 15px;
+}
 .auberge_panier{
-	background-image: url("images\hebergements\4_small\nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-	width: 20%;
+	width: 25%;
 	height: 90%;
 	background-color: white;
 	border: 2px black solid;
 	border-radius: 15px;
+}
+
+.image_amina{
+	width: 100%;
+	height: 50%;
+	background-image: url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+	background-position: center;
+	background-size: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 
 .hotel_amina{
-	background-image: url("images\hebergements\4_small\febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-	width: 20%;
+	width: 25%;
 	height: 90%;
 	background-color: white;
 	border: 2px black solid;
@@ -373,7 +446,7 @@ p{
 
 .populaires{
 	width: 25%;
-	height : 50%;
+	height : 100%;
 	border: 2px black solid;
 	background-color: #F2F2F2;
 	border-radius: 15px;
@@ -387,15 +460,16 @@ p{
 	border: 2px black solid;
 }
 .populaires_enfant{
+	width: 100%;
+	height: 90%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	width: 100%;
 	border: 2px red solid;
 }
 
 .hotel_soleil_matin{
-	background-image: url("images\hebergements\4_small\emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+	background-image: url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
 	width: 80%;
 	height: 30%;
 	background-color: white;
@@ -404,7 +478,7 @@ p{
 }
 
 .coeur_eau{
-	background-image: url("images\hebergements\4_small\aw-creative-VGs8z60yT2c-unsplash.jpg");
+	background-image: url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
 	width: 80%;
 	height: 30%;
 	background-color: white;
@@ -413,7 +487,7 @@ p{
 }
 
 .hotel_bleu_blanc{
-	background-image: url("images\hebergements\4_small\febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+	background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 	width: 80%;
 	height: 30%;
 	background-color: white;
