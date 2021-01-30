@@ -127,6 +127,7 @@ body{
 	width: 30%;
 	height: 100%;
 	border: none;
+	outline-style:none;
 	border-top-right-radius: 15px;
 	border-bottom-right-radius: 15px;
 	background-color: #0065FC;
