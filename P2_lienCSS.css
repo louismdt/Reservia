@@ -22,7 +22,7 @@
 .logo{
 	width: 8%;
 	display: flex;
-	align-items: flex-end;
+	align-items: center;
 }
 
 .principaux{
@@ -207,6 +207,7 @@ body{
 	background-color: #0065FC;
 	color: white;
 	border: 2px black solid;
+	border-radius: 50%;
 }
 
 .economique{
@@ -235,7 +236,7 @@ body{
 
 .loisirs{
 	width: 100%;
-	height: 500px;
+	height: 600px;
 	display: flex;
 	align-content: space-around;
 	justify-content: space-around;
@@ -246,7 +247,7 @@ h1{
 }
 
 h2{
-	font-size: 0.7em;
+	font-size: 0.8em;
 	font-weight: bold;
 }
 
@@ -263,9 +264,8 @@ p{
 #hebergements{
 	width: 70%;
 	justify-content: left;
-	align-content: space-around;
+	align-content: space-between;
 	background-color: #F2F2F2;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -274,14 +274,13 @@ p{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 2px black solid;
+	padding-left: 5%;
 }
 
 .hebergements_enfant{
 	width: 100%;
 	height: 80%;
 	justify-content: space-between;
-	border: 2px black solid;
 }
 
 .bloc_haut{
@@ -289,7 +288,7 @@ p{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	border: 2px black solid;
+	
 }
 
 .bloc_bas{
@@ -297,31 +296,26 @@ p{
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	border: 2px black solid;
-}
-
-.afficher{
-	height: 8%;
-	border: 2px black solid;
 }
 
 .stars{
-	width: 100%;
-	height: 30%;
+	width: 95%;
+	height: 20%;
+	font-size: 0.8em;
 	display: flex;
-	margin-left: 7%;
-	border: 2px black solid;
+	padding-left: 5%;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
 }
+
 .blue{
 	color: #0065FC;
 	display: flex;
-	border: 2px black solid;
 }
 
 .grey{
 	color: #F2F2F2;
 	display: flex;
-	border: 2px black solid;
 }
 
 .bloc_texte_heb{
@@ -329,24 +323,24 @@ p{
 	height: 40%;
 	display: flex;
 	flex-direction: column;
-	align-items: center;
-	justify-content: center;
+	justify-content: space-around;
 	background-color: white;
-	border: 2px black solid;
 	border-bottom-left-radius: 15px;
 	border-bottom-right-radius: 15px;
 }
 
 .bloc_texte_heb h2{
-	width: 100%;
+	width: 95%;
 	height: 20%;
-	margin-left: 7%;
+	margin: 0;
+	padding-left: 5%;
 }
 
 .bloc_texte_heb p{
-	width: 100%;
+	width: 95%;
 	height: 20%;
-	margin-left: 7%;
+	margin: 0;
+	padding-left: 5%;
 }
 
 .image_cannebiere{
@@ -361,10 +355,8 @@ p{
 
 .auberge_cannebiere{
 	width: 25%;
-	height: 90%;
-	
+	height: 80%;
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -381,9 +373,7 @@ p{
 .hotel_port{
 	width: 25%;
 	height: 90%;
-
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -400,9 +390,7 @@ p{
 .hotel_mouettes{
 	width: 25%;
 	height: 90%;
-
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -419,9 +407,7 @@ p{
 .hotel_mer{
 	width: 25%;
 	height: 90%;
-
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -437,9 +423,7 @@ p{
 .auberge_panier{
 	width: 25%;
 	height: 90%;
-
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -456,10 +440,19 @@ p{
 .hotel_amina{
 	width: 25%;
 	height: 90%;
-
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
+}
+
+.afficher{
+	height: 8%;
+	padding-left: 5%;
+}
+
+.afficher a{
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
 }
 
 /*populaires*/
@@ -467,19 +460,22 @@ p{
 .populaires{
 	width: 25%;
 	height : 100%;
-	border: 2px black solid;
 	background-color: #F2F2F2;
 	border-radius: 15px;
 }
 
 .populaires_titre{
 	height: 8%;
-
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	border: 2px black solid;
+	padding-left: 5%;
 }
+
+.populaires_titre i{
+	padding-right: 5%;
+}
+
 .populaires_enfant{
 	width: 100%;
 	height: 90%;
@@ -487,33 +483,35 @@ p{
 	flex-wrap: wrap;
 	justify-content: center;
 	align-content: space-around;
-	border: 2px red solid;
 }
 
 .bloc_texte_pop{
 	width: 60%;
 	height: 100%;
+
 }
 
-.bloc-texte_pop h2{
+.bloc_texte_pop h2{
 	width: 100%;
 	height: 30%;
-	margin-left: 7%;
+	padding-left: 5%;
+	margin: 0;
 }
 
 .bloc_texte_pop p{
 	width: 100%;
 	height: 30%;
-	margin-left: 7%;
+	padding-left: 5%;
+	margin: 0;
 }
 
 .description_pop{
-display: flex;
-flex-wrap: wrap;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 .hotel_soleil_matin{
-	width: 80%;
+	width: 90%;
 	height: 30%;
 	display: flex;
 	background-color: white;
@@ -532,7 +530,7 @@ flex-wrap: wrap;
 }
 
 .coeur_eau{
-	width: 80%;
+	width: 90%;
 	height: 30%;
 	display: flex;
 	background-color: white;
@@ -551,7 +549,7 @@ flex-wrap: wrap;
 }
 
 .hotel_bleu_blanc{
-	width: 80%;
+	width: 90%;
 	height: 30%;
 	display: flex;
 	background-color: white;
@@ -578,8 +576,9 @@ flex-wrap: wrap;
 }
 
 #activites h1{
-width: 100%;
-height: 5%;
+	width: 100%;
+	height: 5%;
+	padding-left: 2.5%;
 }
 
 .activites_enfant{
@@ -588,14 +587,12 @@ height: 5%;
 	display: flex;
 	justify-content: space-around;
 	align-content: space-around;
-
 }
 
 .activites_enfant p{
-	font-size: 12px;
+	font-size: 0.8em;
 	font-weight: bold;
-	justify-content: flex-start;
-	align-items: flex-end;
+	margin: 0;
 }
 
 .vieux_port{
@@ -612,12 +609,16 @@ height: 5%;
 	background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 	background-position: center;
 	background-size: 170%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 .vieux_port p{
-	width: 100%;
+	width: 95%;
 	height: 10%;
-	margin-left: 5%;
-	border: 2px black solid;
+	display: flex;
+	align-items: center;
+	padding-left: 5%;
+
 }
 .fort_et_iles{
 	width: 20%;
@@ -631,8 +632,6 @@ height: 5%;
 .fort_promegues{
 	width: 100%;
 	height: 45%;
-	display: flex;
-	flex-wrap: wrap;
 	border: 2px blue solid;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
@@ -644,13 +643,19 @@ height: 5%;
 	background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 	background-position: center;
 	background-size: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 	border: 2px yellow solid;
 }
 
 .fort_promegues p{
-	width: 100%;
+	width: 95%;
 	height: 10%;
-	margin-left: 5%;
+	display: flex;
+	align-items: center;
+	padding-left: 5%;
+	border-bottom-right-radius: 15px;
+	border-bottom-left-radius: 15px;
 	border: 2px red solid;
 }
 
@@ -658,6 +663,7 @@ height: 5%;
 	width: 100%;
 	height: 45%;
 	border: 2px black solid;
+	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
 
@@ -672,9 +678,11 @@ height: 5%;
 }
 
 .iles_frioul p{
-	width: 100%;
+	width: 95%;
 	height: 10%;
-	margin-left: 5%;
+	display: flex;
+	align-items: center;
+	padding-left: 5%;
 	border: 2px black solid;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
@@ -694,12 +702,16 @@ height: 5%;
 	background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 	background-position: center;
 	background-size: 170%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 }
 
 .calanques p{
-	width: 100%;
+	width: 95%;
 	height: 10%;
-	margin-left: 5%;
+	display: flex;
+	align-items: center;
+	padding-left: 5%;
 	border: 2px black solid;
 }
 
@@ -726,13 +738,17 @@ height: 5%;
 	background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 	background-position: center;
 	background-size: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 	border: 2px black solid;
 }
 
 .notre_dame p{
-	width: 100%;
+	width: 95%;
 	height: 10%;
-	margin-left: 5%;
+	display: flex;
+	align-items: center;
+	padding-left: 5%;
 	border: 2px black solid;
 }
 
@@ -749,13 +765,17 @@ height: 5%;
 	background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 	background-position: center;
 	background-size: 100%;
+	border-top-left-radius: 15px;
+	border-top-right-radius: 15px;
 	border: 2px black solid;
 }
 
 .longchamps p{
-	width: 100%;
+	width: 95%;
 	height: 10%;
-	margin-left: 5%;
+	display: flex;
+	align-items: center;
+	padding-left: 5%;
 	border: 2px black solid;
 }
 
@@ -765,36 +785,30 @@ footer{
 	display: flex;
 	justify-content: space-around;
 	background-color: #F2F2F2;
-	border: 2px black solid;
 }
 
 footer h3{
-	font-size: 1em;
-	border: 2px black solid;
-	}
+	font-size: 1em;	
+}
 
 #a_propos {
 	flex-direction: column;
-	border: 2px black solid;
 }
 
 #a_propos a{
 	text-decoration: none;
 	font-size: 0.7em;
 	color: black;
-	border: 2px black solid;
 }
 
 #nos_hebergements a{
 	text-decoration: none;
 	font-size: 0.7em;
-	color: black;
-	border: 2px black solid;
+	color: black;	;
 }
 
 #assistance a{
 	text-decoration: none;
 	font-size: 0.7em;
 	color: black;
-	border: 2px black solid;
 }
