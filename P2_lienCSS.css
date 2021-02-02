@@ -21,6 +21,7 @@
 
 .logo{
 	width: 8%;
+	margin-left: 1%;
 	display: flex;
 	align-items: center;
 }
@@ -91,9 +92,14 @@ body{
 
 /*en-tête*/
 
+.titre_page{
+	margin-left: 1%;
+}
+
 #recherche{
 	width: 25%;
 	height: 40px;
+	margin-left: 1%;
 }
 
 #recherche form{
@@ -142,17 +148,16 @@ body{
 .nav{
 	height: 5%;
 	width : 70%;
+	margin-left: 1%;
 	display: flex;
 	align-items: center;
 	justify-content: space-around;
-	border: 2px red solid;
 }
 
 .nav p{
 	font-size: 15px;
 	font-weight: bold;
 	width: 5%;
-	border: 2px black solid;
 }
 
 .onglet{
@@ -179,11 +184,11 @@ body{
 }
 
 .onglet_enfant i{
+	width: 100%;
+	height: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 100%;
-	height: 100%;
 	border-radius: 50%;
 	background-color: #DEEBFF;
 	color: #0065FC;
@@ -198,17 +203,24 @@ body{
 }
 
 .info{
+	margin-left: 1%;
 	display: flex;
 	align-items: center;
 	justify-content: flex-start;
-	border: 2px black solid;
 }
 
 .fa-info-circle{
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: #0065FC;
 	color: white;
-	border: 2px black solid;
+	border: 2px #DEEBFF solid;
 	border-radius: 50%;
+}
+
+.info h3{
+	margin-left: 1%;
 }
 
 .economique{
@@ -489,7 +501,9 @@ p{
 .bloc_texte_pop{
 	width: 60%;
 	height: 100%;
-
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
 
 .bloc_texte_pop h2{
@@ -507,8 +521,11 @@ p{
 }
 
 .description_pop{
+	width: 100%;
+	height: 50%;
 	display: flex;
-	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
 }
 
 .hotel_soleil_matin{
@@ -516,7 +533,6 @@ p{
 	height: 30%;
 	display: flex;
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -535,7 +551,6 @@ p{
 	height: 30%;
 	display: flex;
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -554,7 +569,6 @@ p{
 	height: 30%;
 	display: flex;
 	background-color: white;
-	border: 2px black solid;
 	border-radius: 15px;
 }
 
@@ -563,7 +577,7 @@ p{
 	height: 100%;
 	background-image: url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
 	background-position: center;
-	background-size: 220%;
+	background-size: 170%;
 	border-bottom-left-radius: 15px;
 	border-top-left-radius: 15px;
 }
@@ -572,8 +586,8 @@ p{
 
 #activites{
 	width: 100%;
+	height: 400px;
 	align-items: baseline;
-	border: 2px black solid;
 }
 
 #activites h1{
@@ -598,15 +612,14 @@ p{
 
 .vieux_port{
 	width: 20%;
-	height: 300px;
-	border: 2px black solid;
+	height: 300px;	
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
 
 .image_vieux_port{
 	width: 100%;
-	height: 90%;
+	height: 85%;
 	background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 	background-position: center;
 	background-size: 170%;
@@ -615,7 +628,7 @@ p{
 }
 .vieux_port p{
 	width: 95%;
-	height: 10%;
+	height: 15%;
 	display: flex;
 	align-items: center;
 	padding-left: 5%;
@@ -627,50 +640,50 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
-	border: 2px black solid;
 }
 
 .fort_promegues{
 	width: 100%;
 	height: 45%;
-	border: 2px blue solid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
 
 .image_promegues{
 	width: 100%;
-	height: 90%;
+	height: 70%;
 	background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 	background-position: center;
 	background-size: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	border: 2px yellow solid;
 }
 
 .fort_promegues p{
 	width: 95%;
-	height: 10%;
+	height: 30%;
 	display: flex;
 	align-items: center;
 	padding-left: 5%;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
-	border: 2px red solid;
 }
 
 .iles_frioul{
 	width: 100%;
 	height: 45%;
-	border: 2px black solid;
+	flex-direction: column;
+	align-items: center;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
 
 .image_frioul{
 	width: 100%;
-	height: 90%;
+	height: 70%;
 	background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
 	background-position: center;
 	background-size: 100%;
@@ -680,11 +693,10 @@ p{
 
 .iles_frioul p{
 	width: 95%;
-	height: 10%;
+	height: 30%;
 	display: flex;
 	align-items: center;
 	padding-left: 5%;
-	border: 2px black solid;
 	border-bottom-right-radius: 15px;
 	border-bottom-left-radius: 15px;
 }
@@ -692,14 +704,13 @@ p{
 .calanques{
 	width: 20%;
 	height: 300px;
-	border: 2px black solid;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
 
 .image_calanques{
 	width: 100%;
-	height: 90%;
+	height: 85%;
 	background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 	background-position: center;
 	background-size: 170%;
@@ -709,11 +720,10 @@ p{
 
 .calanques p{
 	width: 95%;
-	height: 10%;
+	height: 15%;
 	display: flex;
 	align-items: center;
 	padding-left: 5%;
-	border: 2px black solid;
 }
 
 .dame_longchamps{
@@ -722,68 +732,71 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
-	border: 2px black solid;
 }
 
 .notre_dame{
 	width: 100%;
 	height: 45%;
-	border: 2px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
 
 .image_notre_dame{
 	width: 100%;
-	height: 90%;
+	height: 70%;
 	background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 	background-position: center;
 	background-size: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	border: 2px black solid;
 }
 
 .notre_dame p{
 	width: 95%;
-	height: 10%;
+	height: 30%;
 	display: flex;
 	align-items: center;
 	padding-left: 5%;
-	border: 2px black solid;
 }
 
 .longchamps{
 	width: 100%;
 	height: 45%;
-	border: 2px black solid;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
 
-.image_longchamps{	width: 100%;
-	height: 90%;
+.image_longchamps{	
+	width: 100%;
+	height: 70%;
 	background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 	background-position: center;
 	background-size: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	border: 2px black solid;
 }
 
 .longchamps p{
 	width: 95%;
-	height: 10%;
+	height: 30%;
 	display: flex;
 	align-items: center;
 	padding-left: 5%;
-	border: 2px black solid;
 }
 
 /*Footer*/
 
 footer{
+	height: 150px;
 	display: flex;
+	flex-direction: row;
+	align-items: center;
 	justify-content: space-around;
 	background-color: #F2F2F2;
 }
@@ -793,23 +806,34 @@ footer h3{
 }
 
 #a_propos {
+	height: 70%;
 	flex-direction: column;
 }
 
 #a_propos a{
 	text-decoration: none;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	color: black;
+}
+
+#nos_hebergements{
+	height: 70%;
+	flex-direction: column;
 }
 
 #nos_hebergements a{
 	text-decoration: none;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	color: black;	;
+}
+
+#assistance{
+	height: 70%;
+	flex-direction: column;
 }
 
 #assistance a{
 	text-decoration: none;
-	font-size: 0.7em;
+	font-size: 0.8em;
 	color: black;
 }
