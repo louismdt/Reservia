@@ -7,7 +7,6 @@
 			url("raleway/raleway-light.ttf") format("truetype"),
 			url("raleway/raleway-light.svg") format("svg");
 	font-weight: normal;
-	font-size: normal;
 }
 
 /* En-tête */
@@ -177,6 +176,10 @@ body{
 	border: 2px #DEEBFF solid;
 }
 
+.onglet_enfant:hover{
+	opacity: 0.6;
+}
+
 .icone_onglet{
 	width: 20%;
 	height: 100%;
@@ -296,6 +299,10 @@ p{
 	justify-content: space-between;
 }
 
+.hebergements_enfant a{
+	color: black;
+	text-decoration: none;
+}
 .bloc_haut{
 	height: 50%;
 	display: flex;
@@ -373,6 +380,10 @@ p{
 	border-radius: 15px;
 }
 
+.auberge_cannebiere:hover{
+	opacity: 0.6;
+}
+
 .image_hotel_port{
 	width: 100%;
 	height: 60%;
@@ -388,6 +399,10 @@ p{
 	height: 90%;
 	background-color: white;
 	border-radius: 15px;
+}
+
+.hotel_port:hover{
+	opacity: 0.6;
 }
 
 .image_hotel_mouettes{
@@ -407,6 +422,10 @@ p{
 	border-radius: 15px;
 }
 
+.hotel_mouettes:hover{
+	opacity: 0.6;
+}
+
 .image_hotel_mer{
 	width: 100%;
 	height: 60%;
@@ -422,6 +441,10 @@ p{
 	height: 90%;
 	background-color: white;
 	border-radius: 15px;
+}
+
+.hotel_mer:hover{
+	opacity: 0.6;
 }
 
 .image_auberge_panier{
@@ -440,6 +463,10 @@ p{
 	border-radius: 15px;
 }
 
+.auberge_panier:hover{
+	opacity: 0.6;
+}
+
 .image_amina{
 	width: 100%;
 	height: 60%;
@@ -455,6 +482,10 @@ p{
 	height: 90%;
 	background-color: white;
 	border-radius: 15px;
+}
+
+.hotel_amina:hover{
+	opacity: 0.6;
 }
 
 .afficher{
@@ -498,6 +529,11 @@ p{
 	align-content: space-around;
 }
 
+.populaires_enfant a{
+	color: black;
+	text-decoration: none;
+}
+
 .bloc_texte_pop{
 	width: 60%;
 	height: 100%;
@@ -525,6 +561,7 @@ p{
 	height: 50%;
 	display: flex;
 	flex-direction: column;
+	flex-wrap: nowrap;
 	justify-content: space-around;
 }
 
@@ -546,6 +583,10 @@ p{
 	border-top-left-radius: 15px;
 }
 
+.image_soleil_matin:hover{
+	opacity: 0.6;
+}
+
 .coeur_eau{
 	width: 90%;
 	height: 30%;
@@ -564,6 +605,10 @@ p{
 	border-top-left-radius: 15px;
 }
 
+.image_coeur_eau:hover{
+	opacity: 0.6;
+}
+
 .hotel_bleu_blanc{
 	width: 90%;
 	height: 30%;
@@ -580,6 +625,10 @@ p{
 	background-size: 170%;
 	border-bottom-left-radius: 15px;
 	border-top-left-radius: 15px;
+}
+
+.image_bleu_blanc:hover{
+	opacity: 0.6;
 }
 
 /*activites*/
@@ -626,6 +675,11 @@ p{
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
 }
+
+.vieux_port:hover{
+	opacity: 0.6;
+}
+
 .vieux_port p{
 	width: 95%;
 	height: 15%;
