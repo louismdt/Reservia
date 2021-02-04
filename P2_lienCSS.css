@@ -448,13 +448,13 @@ p{
 }
 
 .image_auberge_panier{
-		width: 100%;
-		height: 60%;
-		background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-		background-position: center;
-		background-size: 100%;
-		border-top-right-radius: 15px;
-		border-top-left-radius: 15px;
+	width: 100%;
+	height: 60%;
+	background-image: url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+	background-position: center;
+	background-size: 100%;
+	border-top-right-radius: 15px;
+	border-top-left-radius: 15px;
 }
 .auberge_panier{
 	width: 25%;
@@ -653,6 +653,11 @@ p{
 	align-content: space-around;
 }
 
+.activites_enfant a{
+	text-decoration: none;
+	color: black;
+}
+
 .activites_enfant p{
 	font-size: 0.8em;
 	font-weight: bold;
@@ -716,6 +721,10 @@ p{
 	border-top-right-radius: 15px;
 }
 
+.fort_promegues:hover{
+	opacity: 0.6;
+}
+
 .fort_promegues p{
 	width: 95%;
 	height: 30%;
@@ -745,6 +754,10 @@ p{
 	border-top-right-radius: 15px;
 }
 
+.iles_frioul:hover{
+	opacity: 0.6;
+}
+
 .iles_frioul p{
 	width: 95%;
 	height: 30%;
@@ -772,6 +785,10 @@ p{
 	border-top-right-radius: 15px;
 }
 
+.calanques:hover{
+	opacity: 0.6;
+}
+
 .calanques p{
 	width: 95%;
 	height: 15%;
@@ -786,6 +803,7 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
+	border: 2px black solid;
 }
 
 .notre_dame{
@@ -796,6 +814,7 @@ p{
 	align-items: center;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
+	border: 2px red solid;
 }
 
 .image_notre_dame{
@@ -806,6 +825,11 @@ p{
 	background-size: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+	border: 2px yellow solid;
+}
+
+.notre_dame:hover{
+	opacity: 0.6;
 }
 
 .notre_dame p{
@@ -814,6 +838,7 @@ p{
 	display: flex;
 	align-items: center;
 	padding-left: 5%;
+	border: 2px blue solid; 
 }
 
 .longchamps{
@@ -834,6 +859,10 @@ p{
 	background-size: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
+}
+
+.longchamps:hover{
+	opacity: 0.6;
 }
 
 .longchamps p{
