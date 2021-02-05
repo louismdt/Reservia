@@ -802,7 +802,7 @@ p{
 	width: 100%;
 	height: 45%;
 	flex-direction: column;
-	align-items: center;
+
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
 }
@@ -869,9 +869,16 @@ p{
 	border: 2px black solid;
 }
 
-.notre_dame{
+.dame_longchamps a{
+	text-decoration: none;
 	width: 100%;
 	height: 45%;
+	border: 2px blue solid;
+}
+
+.notre_dame{
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
