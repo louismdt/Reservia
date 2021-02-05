@@ -18,20 +18,12 @@
 	justify-content: space-between;
 }
 
-@media screen and (max-width: 1024px)
-{
-    .lien a:hover{
-		border-bottom: 2px #0065FC solid;
-	}
-}
-
 .logo{
 	width: 8%;
 	margin-left: 1%;
 	display: flex;
 	align-items: center;
 }
-
 
 .principaux{
 	width: 30%;
@@ -109,13 +101,6 @@ body{
 	margin-left: 1%;
 }
 
-@media screen and (max-width: 1024px)
-{
-    #recherche{
-		width: 90%;
-	}
-}
-
 #recherche form{
 	width: 100%;
 	height: 100%;
@@ -168,15 +153,6 @@ body{
 	justify-content: space-around;
 }
 
-@media screen and (max-width: 1024px)
-{
-    .nav{
-		display: flex;
-		flex-direction: column;
-		align-items: left;
-	}
-}
-
 .nav p{
 	font-size: 15px;
 	font-weight: bold;
@@ -191,14 +167,6 @@ body{
 	border: 2px black solid;
 }
 
-@media screen and (max-width: 1024px)
-{
-    .onglet{
-		height: 200px;
-		flex-wrap: wrap;
-	}
-}
-
 .onglet_enfant{
 	width: 80%;
 	height: 40%;
@@ -206,13 +174,6 @@ body{
 	justify-content: space-around;
 	border-radius: 50px;
 	border: 2px #DEEBFF solid;
-}
-
-@media screen and (max-width: 1024px)
-{
-    .onglet_enfant{
-		height: 20%;
-	}
 }
 
 .onglet_enfant:hover{
@@ -297,16 +258,7 @@ body{
 	justify-content: space-around;
 }
 
-@media screen and (max-width: 1024px)
-{
-    .loisirs{
-		height: 800px;
-		display: flex;
-		flex-wrap: wrap-reverse;
-		justify-content: space-between;
-		align-items: center;
-	}
-}
+
 
 h1{
 	font-size: 1.2em;
@@ -335,12 +287,7 @@ p{
 	border-radius: 15px;
 }
 
-@media screen and (max-width: 1024px)
-{
-    #herbergements{
-		width: 90%;
-	}
-}
+
 
 .hebergements_titre{
 	height: 8%;
@@ -565,12 +512,7 @@ p{
 	border-radius: 15px;
 }
 
-@media screen and (max-width: 1024px)
-{
-    .populaires{
-		width: 90%;
-	}
-}
+
 
 .populaires_titre{
 	height: 8%;
@@ -765,9 +707,15 @@ p{
 	align-content: space-between;
 }
 
-.fort_promegues{
+.fort_et_iles a{
+	text-decoration: none;
 	width: 100%;
 	height: 45%;
+}
+
+.fort_promegues{
+	width: 100%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -801,7 +749,7 @@ p{
 
 .iles_frioul{
 	width: 100%;
-	height: 45%;
+	height: 100%;
 	flex-direction: column;
 
 	border-radius: 15px;
@@ -867,14 +815,12 @@ p{
 	display: flex;
 	flex-wrap: wrap;
 	align-content: space-between;
-	border: 2px black solid;
 }
 
 .dame_longchamps a{
 	text-decoration: none;
 	width: 100%;
 	height: 45%;
-	border: 2px blue solid;
 }
 
 .notre_dame{
@@ -885,7 +831,6 @@ p{
 	align-items: center;
 	border-radius: 15px;
 	box-shadow: 5px 5px 20px grey;
-	border: 2px red solid;
 }
 
 .image_notre_dame{
@@ -896,7 +841,6 @@ p{
 	background-size: 100%;
 	border-top-left-radius: 15px;
 	border-top-right-radius: 15px;
-	border: 2px yellow solid;
 }
 
 .notre_dame:hover{
@@ -908,13 +852,12 @@ p{
 	height: 30%;
 	display: flex;
 	align-items: center;
-	padding-left: 5%;
-	border: 2px blue solid; 
+	padding-left: 5%; 
 }
 
 .longchamps{
 	width: 100%;
-	height: 45%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
@@ -955,13 +898,6 @@ footer{
 	background-color: #F2F2F2;
 }
 
-@media screen and (max-width: 1024px)
-{
-    footer{
-		display: flex;
-	}
-}
-
 footer h3{
 	font-size: 1em;	
 }
@@ -969,11 +905,6 @@ footer h3{
 #a_propos {
 	height: 70%;
 	flex-direction: column;
-}
-
-@media screen and (max-width: 1280px)
-{
-    /* Rédigez vos propriétés CSS ici */
 }
 
 #a_propos a{
@@ -1002,4 +933,132 @@ footer h3{
 	text-decoration: none;
 	font-size: 0.8em;
 	color: black;
+}
+
+/* MediaQueries téléphone */
+
+@media screen and (max-width: 1024px){
+	.principaux{
+		flex-wrap: wrap-reverse;
+	}
+
+	.lien{
+		width: 100%;
+	}
+
+	.lien a:hover{
+		border-bottom: 2px #0065FC solid;
+	}
+
+	#recherche{
+		width: 90%;
+	}
+
+    .nav{
+		display: flex;
+		flex-direction: column;
+		align-items: left;
+	}
+
+    .onglet{
+		height: 200px;
+		flex-wrap: wrap;
+	}
+    .onglet_enfant{
+		height: 20%;
+	}
+
+    .loisirs{
+		height: 800px;
+		display: flex;
+		flex-wrap: wrap-reverse;
+		justify-content: space-between;
+		align-items: center;
+	}
+    #herbergements{
+		width: 90%;
+		height: 900px;
+		flex-direction: column;
+		align-items: center;
+		background-color: white;
+		box-shadow: 5px 5px 20px grey;
+	}
+
+	.bloc_haut{
+		width: 90%;
+		height: 300px;
+		flex-direction: column;
+	}
+
+	.auberge_cannebiere{
+		width: 100%;
+		height: 30%;
+	}
+
+	.hotel_port{
+		width: 100%;
+		height: 30%;
+	}
+
+	.hotel_mouettes{
+		width: 100%;
+		height: 30%;
+	}
+	.bloc_bas{
+		width: 90%;
+		height: 300px;
+		flex-direction: column;
+	}
+
+	.hotel_mer{
+		width: 100%;
+		height: 30%;
+	}
+
+	.auberge_panier{
+		width: 100%;
+		height: 30%;
+	}
+
+	.hotel_amina{
+		width: 100%;
+		height: 30%;
+	}
+
+
+
+
+
+
+
+
+
+    .populaires{
+		width: 90%;
+	}
+
+    footer{
+		width: 100%;
+		height: 300px;
+		flex-direction: column;
+		margin: 0;
+	}
+
+	#a_propos{
+		width: 80%;
+		height: 30%;
+		font-weight: bold;
+	}
+
+	#nos_hebergements{
+		width: 80%;
+		height: 30%;
+		font-weight: bold;
+	}
+
+	#assistance{
+		width: 80%;
+		height: 30%;
+		font-weight: bold;
+	}
 }
