@@ -938,16 +938,62 @@ footer h3{
 /* MediaQueries téléphone */
 
 @media screen and (max-width: 1024px){
+	body{
+		height: auto;
+		display: flex;
+		flex-direction: column;
+		
+		
+
+	}
+
+	.en_tete{
+		width: 100%;
+		height: 200px;
+	}
+
+	.logo{
+		width: 100%;
+		height: 50%;
+	}
+
 	.principaux{
+		width: 100%;
+		display: flex;
 		flex-wrap: wrap-reverse;
 	}
 
 	.lien{
-		width: 100%;
+		width: 200%;
+		height: 20%;
+		display: flex;
+		justify-content: space-around;
+	}
+
+	.lien a{
+		width: 300%;
+		height: 80%;
+		justify-content: center;
+		font-size: 0.8em;
+		font-weight: bold;
+		text-decoration: none;
+		border-bottom: #DEEBFF;
+		border-top: none;
+		color: black;
 	}
 
 	.lien a:hover{
 		border-bottom: 2px #0065FC solid;
+		border-top: none;
+	}
+
+	.inscription{
+		width: 50%;
+		height: 50%;
+	}
+
+	.inscription a:hover{
+		border none
 	}
 
 	#recherche{
@@ -1061,4 +1107,10 @@ footer h3{
 		height: 30%;
 		font-weight: bold;
 	}
+}
+
+/* MediaQueries tablette */
+
+@media all and (min-width: 1024px) and(max-width: 1280px){
+
 }
