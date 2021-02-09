@@ -993,11 +993,16 @@ footer h3{
 	}
 
 	.inscription a:hover{
-		border none
+		border: none;
 	}
 
 	#recherche{
 		width: 90%;
+	}
+
+	#recherche button{
+		span style
+
 	}
 
     .nav{
