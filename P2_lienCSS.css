@@ -939,7 +939,7 @@ footer h3{
 
 @media screen and (max-width: 1024px){
 	body{
-		height: auto;
+		height: 3000px;
 		display: flex;
 		flex-direction: column;
 		
@@ -949,7 +949,7 @@ footer h3{
 
 	.en_tete{
 		width: 100%;
-		height: 200px;
+		height: 100px;
 	}
 
 	.logo{
@@ -965,7 +965,7 @@ footer h3{
 
 	.lien{
 		width: 200%;
-		height: 20%;
+		height: 50%;
 		display: flex;
 		justify-content: space-around;
 	}
@@ -996,27 +996,71 @@ footer h3{
 		border: none;
 	}
 
-	#recherche{
+	header{
 		width: 90%;
+		height: 500px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
 	}
 
-	#recherche button{
-		span style
+	.titre_page{
+		width: 100%;
+		height: 20%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
 
+	.titre_page h1{
+		margin: auto;
+	}
+
+	.titre_page h3{
+		margin: auto;
+		margin-left: 0px;
+	}
+
+	#recherche{
+		width: 100%;
+		height: 10%;
+		margin: 10px;
 	}
 
     .nav{
+		width: 100%;
+		height: 50%;
 		display: flex;
-		flex-direction: column;
-		align-items: left;
+		flex-wrap: wrap;
+	}
+
+	.nav p{
+		width: 100%;
+		height: 10%;
 	}
 
     .onglet{
-		height: 200px;
+		width: 100%;
+		height: 90%;
 		flex-wrap: wrap;
 	}
     .onglet_enfant{
+		width: 60%;
 		height: 20%;
+	}
+
+	.info{
+		width: 100%;
+		height: 10%;
+	}
+
+	section{
+		width: 100%;
+		height: 2000px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		
 	}
 
     .loisirs{
@@ -1076,6 +1120,40 @@ footer h3{
 		height: 30%;
 	}
 
+	#activites{
+		width: 90%;
+		height: 500px;
+	}
+
+	.activites_enfant{
+		width: 90%;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	.vieux_port{
+		width: 100%;
+		height: 15%;
+	}
+
+	.fort_et_iles{
+		width: 100%;
+		height: 30%;
+	}
+
+	.calanques{
+		width: 100%;
+		height: 15%;
+
+	}
+
+	.dame_longchamps{
+		width: 100%;
+		height: 30%;
+	}
+
 
 
 
@@ -1086,6 +1164,7 @@ footer h3{
 
     .populaires{
 		width: 90%;
+		height: 400px;
 	}
 
     footer{
