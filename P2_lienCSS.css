@@ -1073,8 +1073,9 @@ footer h3{
 		justify-content: space-between;
 		align-items: center;
 	}
+
     #hebergements{
-		width: 90%;
+		width: 100%;
 		height: 900px;
 		display: flex;
 		flex-direction: column;
@@ -1083,9 +1084,23 @@ footer h3{
 		background-color: white;
 	}
 
+	.hebergements_titre{
+		width: 100%;
+		height: 5%;
+	}
+
+	.hebergements_enfant{
+		width: 100%;
+		height: 80%;
+		display: flex;
+		flex-direction: column;
+
+		align-items: center;
+	}
+
 	.bloc_haut{
-		width: 90%;
-		height: 300px;
+		width: 100%;
+		height: 50%;
 		flex-direction: column;
 	}
 
@@ -1107,8 +1122,8 @@ footer h3{
 		box-shadow: 5px 5px 20px grey;
 	}
 	.bloc_bas{
-		width: 90%;
-		height: 300px;
+		width: 100%;
+		height: 50%;
 		flex-direction: column;
 	}
 
@@ -1128,6 +1143,11 @@ footer h3{
 		width: 100%;
 		height: 30%;
 		box-shadow: 5px 5px 20px grey;
+	}
+
+	.afficher{
+		width: 100%;
+		height: 5%;
 	}
 
 	#activites{
