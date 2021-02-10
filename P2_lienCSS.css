@@ -941,7 +941,7 @@ footer h3{
 
 @media screen and (max-width: 1024px){
 	body{
-		height: 3000px;
+		height: 4000px;
 		display: flex;
 		flex-direction: column;
 		
@@ -1081,7 +1081,7 @@ footer h3{
 
     #hebergements{
 		width: 90%;
-		height: 1200px;
+		height: 1400px;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -1099,7 +1099,6 @@ footer h3{
 		height: 90%;
 		display: flex;
 		flex-direction: column;
-
 		align-items: center;
 	}
 
@@ -1157,15 +1156,23 @@ footer h3{
 
 	#activites{
 		width: 100%;
-		height: 1400px;
+		height: 1300px;
 		display: flex;
 		flex-direction: column;
-		justify-content: space-around;
 		align-items: center;
 	}
 
+	#activites h1{
+		width: 100%;
+		height: 3%;
+		display: flex;
+		justify-content: left;
+		align-items: center;
+		margin: 0;
+	}
+
 	.activites_enfant{
-		width: 90%;
+		width: 95%;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-around;
@@ -1176,7 +1183,37 @@ footer h3{
 		height: 15%;
 	}
 
+	.image_vieux_port{
+		width: 100%;
+		height: 70%;
+	}
+
+	.vieux_port p{
+		width: 100%;
+		height: 30%;
+	}
+
 	.fort_et_iles{
+		width: 100%;
+		height: 30%;
+	}
+
+	.image_promegues{
+		width: 100%;
+		height: 70%;
+	}
+
+	.fort_promegues p{
+		width: 100%;
+		height: 30%;
+	}
+
+	.image_frioul{
+		width: 100%;
+		height: 70%;
+	}
+
+	.iles_frioul p{
 		width: 100%;
 		height: 30%;
 	}
@@ -1184,10 +1221,39 @@ footer h3{
 	.calanques{
 		width: 100%;
 		height: 15%;
+	}
 
+	.image_calanques{	
+		width: 100%;
+		height: 70%;
+	}
+
+	.calanques p{
+		width: 100%;
+		height: 30%;
 	}
 
 	.dame_longchamps{
+		width: 100%;
+		height: 30%;
+	}
+
+	.image_notre_dame{
+		width: 100%;
+		height: 70%;
+	}
+
+	.notre_dame p{
+		width: 100%;
+		height: 30%;
+	}
+
+	.image_longchamps{
+		width: 100%;
+		height: 70%;
+	}
+
+	.longchamps p{
 		width: 100%;
 		height: 30%;
 	}
