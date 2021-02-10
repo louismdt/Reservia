@@ -171,9 +171,10 @@ body{
 	width: 80%;
 	height: 40%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
+align-items: center;
 	border-radius: 50px;
-	border: 2px #DEEBFF solid;
+	border: 2px #F2F2F2 solid;
 }
 
 .onglet_enfant:hover{
@@ -181,9 +182,10 @@ body{
 }
 
 .icone_onglet{
-	width: 20%;
-	height: 100%;
-	border: 2px black solid;
+	width: 35px;
+	height: 35px;
+	border: 4px #DEEBFF solid;
+	border-radius: 50%;
 }
 
 .onglet_enfant i{
