@@ -164,7 +164,6 @@ body{
 	height: 100px;
 	display: flex;
 	align-items: center;
-	border: 2px black solid;
 }
 
 .onglet_enfant{
@@ -955,31 +954,33 @@ footer h3{
 	}
 
 	.logo{
-		width: 100%;
+		width: 0%;
 		height: 50%;
 	}
 
 	.principaux{
 		width: 100%;
 		display: flex;
+		justify-content: flex-end;
 		flex-wrap: wrap-reverse;
 	}
 
 	.lien{
-		width: 200%;
+		width: 100%;
 		height: 50%;
 		display: flex;
 		justify-content: space-around;
+		
 	}
 
 	.lien a{
-		width: 300%;
+		width: 50%;
 		height: 80%;
 		justify-content: center;
 		font-size: 0.8em;
 		font-weight: bold;
 		text-decoration: none;
-		border-bottom: #DEEBFF;
+		border-bottom: 2px #F2F2F2 solid;
 		border-top: none;
 		color: black;
 	}
@@ -992,6 +993,8 @@ footer h3{
 	.inscription{
 		width: 50%;
 		height: 50%;
+		display: flex;
+		justify-content: flex-end;
 	}
 
 	.inscription a:hover{
@@ -999,7 +1002,7 @@ footer h3{
 	}
 
 	header{
-		width: 90%;
+		width: 100%;
 		height: 500px;
 		display: flex;
 		flex-direction: column;
@@ -1026,11 +1029,11 @@ footer h3{
 	#recherche{
 		width: 100%;
 		height: 10%;
-		margin: 10px;
+		margin: 0px;
 	}
 
     .nav{
-		width: 100%;
+		width: 90%;
 		height: 50%;
 		display: flex;
 		flex-wrap: wrap;
@@ -1055,6 +1058,7 @@ footer h3{
 	.info{
 		width: 100%;
 		height: 10%;
+		font-size: 1.2em;
 	}
 
 	section{
@@ -1291,6 +1295,109 @@ footer h3{
 
 /* MediaQueries tablette */
 
-@media all and (min-width: 1024px) and(max-width: 1280px){
+@media all and (min-width: 1024px) and (max-width: 1280px) {
+
+	.en_tete{
+		width: 100%;
+	}
+
+	.logo{
+		width: 15%;
+	}
+
+	.principaux{
+		width: 40%;
+	}
+
+	.lien {
+		width: 60%;
+		font-size: 1.2em;
+		font-weight: bold;
+		text-decoration: none;
+		border-top: none;
+		color: black;
+	}
+
+	.lien a:hover{
+		border-bottom: 2px #0065FC solid;
+		border-top: none;
+	}
+
+	.inscription{
+		width: 30%;
+		font-size: 1.2em;
+		font-weight: bold;
+		text-decoration: none;
+		border-top: none;
+	}
+
+	.inscription a:hover{
+		border-bottom: 2px #0065FC solid;
+		border-top: none;
+	}
+
+	.nav{
+		width: auto;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: flex-start;
+	}
+
+	.nav p{
+		width: 20%;
+		margin-bottom: auto;
+	}
+
+	.onglet{
+		width: 90%;
+		height: ;
+	}
+
+	.loisirs{
+		width: 100%;
+		height: 1200px;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	#hebergements{
+		width: 100%;
+		height: 70%;
+	}
+
+	.populaires{
+		width: 100%;
+		height: 20%;
+	}
+
+	.populaires_titre{
+		width: auto;
+		height: 20%;
+
+	}
+
+	.populaires_enfant{
+		width: 100%;
+		height: 80%;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.hotel_soleil_matin{
+		width: 30%;
+		height: 90%;
+	}
+
+	.coeur_eau{
+		width: 30%;
+		height: 90%;
+	}
+
+	.hotel_bleu_blanc{
+		width: 30%;
+		height: 90%;
+	}
+
+
 
 }
