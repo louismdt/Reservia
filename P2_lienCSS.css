@@ -590,7 +590,7 @@ p{
 	border-top-left-radius: 15px;
 }
 
-.image_soleil_matin:hover{
+.hotel_soleil_matin:hover{
 	opacity: 0.6;
 }
 
@@ -612,7 +612,7 @@ p{
 	border-top-left-radius: 15px;
 }
 
-.image_coeur_eau:hover{
+.coeur_eau:hover{
 	opacity: 0.6;
 }
 
@@ -634,7 +634,7 @@ p{
 	border-top-left-radius: 15px;
 }
 
-.image_bleu_blanc:hover{
+.hotel_bleu_blanc:hover{
 	opacity: 0.6;
 }
 
@@ -943,9 +943,6 @@ footer h3{
 		height: 4000px;
 		display: flex;
 		flex-direction: column;
-		
-		
-
 	}
 
 	.en_tete{
@@ -1297,8 +1294,13 @@ footer h3{
 
 @media all and (min-width: 1024px) and (max-width: 1280px) {
 
+	.body {
+		width: 100%;
+	}
+
 	.en_tete{
 		width: 100%;
+		padding-right: 5%;
 	}
 
 	.logo{
@@ -1354,7 +1356,6 @@ footer h3{
 
 	.onglet{
 		width: 90%;
-		height: ;
 	}
 
 	.loisirs{
@@ -1371,10 +1372,14 @@ footer h3{
 	}
 
 	.auberge_cannebiere{
+		width: 25%;
+		height: 90%;
 		box-shadow: 5px 5px 20px grey;
 	}
 
 	.hotel_port{
+		width: 25%;
+		height: 90%;
 		box-shadow: 5px 5px 20px grey;
 	}
 
@@ -1383,6 +1388,8 @@ footer h3{
 	}
 
 	.hotel_mouettes{
+		width: 25%;
+		height: 90%;
 		box-shadow: 5px 5px 20px grey;
 	}
 
@@ -1391,10 +1398,14 @@ footer h3{
 	}
 
 	.hotel_mer{
+		width: 25%;
+		height: 90%;
 		box-shadow: 5px 5px 20px grey;
 	}
 
 	.auberge_panier{
+		width: 25%;
+		height: 90%;
 		box-shadow: 5px 5px 20px grey;
 	}
 
@@ -1403,11 +1414,13 @@ footer h3{
 	}
 
 	.hotel_amina{
+		width: 25%;
+		height: 90%;
 		box-shadow: 5px 5px 20px grey;
 	}
 
 	.populaires{
-		width: 100%;
+		width: 95%;
 		height: 20%;
 	}
 
@@ -1448,6 +1461,7 @@ footer h3{
 		background-size: 200%;
 	}
 
-
-
+	#activites{
+		width: 100%;
+	}
 }
